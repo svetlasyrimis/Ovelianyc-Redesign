@@ -1,6 +1,6 @@
 # Ovelia
 
-https://i.imgur.com/a0KiEAu.png
+![Challenge](https://i.imgur.com/a0KiEAu.png)
 <p style="text-align: center;"><em>Redesign</em></p>
 
 ## Table of Contents
@@ -39,7 +39,8 @@ https://i.imgur.com/a0KiEAu.png
 
 ## Project Description
 
-Created, designed, and developed by [Svetla Syrimis](https://github.com/svetlasyrimis), [Steve Kim](https://github.com/Majorsteve), [Danielle Klinger](https://github.com/Dklinger95), [Janis Crespo](https://github.com/), [Jennifer Pujols](https://github.com/jenniferpujols), & [Nazrul Babu](https://github.com/n95babu) (Git Czar) for the GA Software Engineering Immersive & User Experience Design Immersive (May '19 Cohort) collab project Project.
+#### Project Team
+Created, designed, and developed by [Svetla Syrimis](https://github.com/svetlasyrimis), [Steve Kim](https://github.com/Majorsteve), [Danielle Klinger](https://github.com/Dklinger95), [Janis Crespo](https://github.com/), [Jennifer Pujols](https://github.com/jenniferpujols), & [Nazrul Babu](https://github.com/n95babu) (Git Czar) for the GA Software Engineering Immersive & User Experience Design Immersive (May '19 Cohort) collab  Project.
 
 Team values, communication preferences, and other group expectations can be found on the [Ovelia- Redesign google doc](https://docs.google.com/document/d/1JdjdJwcXwCWbywYsNXTXL3d3OJm9BnaXuxp-JBNMiA0/edit).
 
