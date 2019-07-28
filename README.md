@@ -116,6 +116,69 @@ Ovelianyc is modeled with functional inspiration from [Tavernakyclades] (http://
 # Project Followup
 
 > Any tasks we would like to revisit after graduation go here.
+=======
+
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: |
+| Lorem ipsum | High | x hrs | y hrs |
+
+
+## Supporting Libraries
+
+
+> Packages installed via node go here.
+
+* Application Libraries
+  * axios
+  * material-ui
+  * react
+  * react-router-dom
+  * react-with-gesture
+  * Glo board 
+  * Girkrackeb
+  * react-star-rating
+  
+
+<br>
+<br>
+
+
+# Project Followup
+
+> Any tasks we would like to revisit after graduation go here.
+
+
+
+
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: |
+| Lorem ipsum | High | x hrs | y hrs |
+
+
+## Supporting Libraries
+
+
+> Packages installed via node go here.
+
+* Application Libraries
+  * axios
+  * material-ui
+  * react
+  * react-router-dom
+  * react-with-gesture
+  * Glo board 
+  * Girkrackeb
+  * react-star-rating
+  
+
+<br>
+<br>
+
+
+# Project Followup
+
+> Any tasks we would like to revisit after graduation go here.
+
 
 
 
