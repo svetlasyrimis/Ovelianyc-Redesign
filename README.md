@@ -87,7 +87,6 @@ Ovelianyc is modeled with functional inspiration from [Tavernakyclades] (http://
 #### Component Timeframes
 
 > Time expectation (padded with an extra hour, minimum, to play it safe) go here.
-<<<<<<< HEAD
 
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
@@ -151,4 +150,36 @@ Ovelianyc is modeled with functional inspiration from [Tavernakyclades] (http://
 
 
 
->>>>>>> 8d2514c398b8d0eaab1ae4c690422224c77858a8
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: |
+| Lorem ipsum | High | x hrs | y hrs |
+
+
+## Supporting Libraries
+
+
+> Packages installed via node go here.
+
+* Application Libraries
+  * axios
+  * material-ui
+  * react
+  * react-router-dom
+  * react-with-gesture
+  * Glo board 
+  * Girkrackeb
+  * react-star-rating
+  
+
+<br>
+<br>
+
+
+# Project Followup
+
+> Any tasks we would like to revisit after graduation go here.
+
+
+
+
+
