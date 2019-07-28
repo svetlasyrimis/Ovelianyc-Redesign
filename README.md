@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Ovelia
 
-## Available Scripts
 
-In the project directory, you can run:
+https://imgur.com/a0KiEAu
+<p style="text-align: center;"><em>Redesign</em></p>
 
-### `npm start`
+## Table of Contents
+- [Project Description](#project-description)
+  - [Project Team](#project-team)
+  - [Project Inspiration](#project-inspiration)
+  - [Project Permissions](#project-permissions)
+- [Design](#design)
+  - [Sitemap](#sitemap)
+  - [Wireframes](#wireframes)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
+  - [Branding](#branding)
+- [Development](#development)
+  - [Functional Heirarchy](#functional-heirarchy)
+    - [Repo Structure](#repo-structure)
+    - [Database Table Structure](#express-database-structure)
+    - [React Structure](#react-structure)
+  - [Functional Components](#functional-components)
+    - [Component Breakdown](#component-breakdown)
+    - [Component Timeframes](#component-timeframes)
+    - [Helper Functions](#helper-functions)
+  - [Supporting Libraries](#supporting-libraries)
+- [Project Review](#project-review)
+  - [Code Showcase](#code-showcase)
+  - [Bugs, Issues, and Resolutions](#issues-&-resolutions)
+- [Project Followup](#project-followup)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
+<br>
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+# Overview
 
-### `npm test`
+![Logo](https://imgur.com/a0KiEAu)
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Project Description
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Created, designed, and developed by [Svetla Syrimis](https://github.com/svetlasyrimis), [Steve Kim](https://github.com/Majorsteve), [Danielle Klinger](https://github.com/Dklinger95), [Janis Crespo](https://github.com/), [Jennifer Pujols](https://github.com/jenniferpujols), & [Nazrul Babu](https://github.com/n95babu) (Git Czar) for the GA Software Engineering Immersive & User Experience Design Immersive (May '19 Cohort) collab project Project.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Team values, communication preferences, and other group expectations can be found on the [Ovelia- Redesign google doc](https://docs.google.com/document/d/1JdjdJwcXwCWbywYsNXTXL3d3OJm9BnaXuxp-JBNMiA0/edit).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Project Inspiration
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
