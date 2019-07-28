@@ -32,8 +32,6 @@
 
 # Overview
 
-![Logo](https://imgur.com/a0KiEAu)
-
 
 ## Project Description
 
