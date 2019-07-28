@@ -7,13 +7,11 @@
 - [Project Description](#project-description)
   - [Project Team](#project-team)
   - [Project Inspiration](#project-inspiration)
-  - [Project Permissions](#project-permissions)
 - [Design](#design)
   - [Sitemap](#sitemap)
   - [Wireframes](#wireframes)
     - [Desktop](#desktop)
     - [Mobile](#mobile)
-  - [Branding](#branding)
 - [Development](#development)
   - [Functional Heirarchy](#functional-heirarchy)
     - [Repo Structure](#repo-structure)
@@ -66,6 +64,21 @@ Ovelianyc is modeled with functional inspiration from [Tavernakyclades] (http://
 # Development
 
 ## Functional Goals
+
+- Core React Component
+    - Menu (_Show_)
+        - Photos
+        - Dinner
+        - Brunch
+        - Catering
+    - Contact Us  
+        - Hours, location, phone number
+    - About Us  (_Index_)
+    -Reservation- through Resy 
+    - Social Media Links (_Show_)
+    
+ 
+
 
 ## Functional Heirarchy
 
