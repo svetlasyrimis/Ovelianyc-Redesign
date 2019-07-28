@@ -57,6 +57,22 @@ Ovelianyc is modeled with functional inspiration from [Tavernakyclades] (http://
 <br>
 
 ## Wireframes
+#### Desktop 
+![Desktop Wireframe](https://i.imgur.com/FU3kYxk.jpg)
+
+
+
+#### Tablet
+![Tablet Wireframe](https://i.imgur.com/WhleUDp.jpg)
+
+
+
+#### Mobile
+![Mobile Wireframe](https://i.imgur.com/96F1tBQ.jpg)
+
+
+
+
 
 
 # Development
