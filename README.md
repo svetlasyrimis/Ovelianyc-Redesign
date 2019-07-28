@@ -1,7 +1,6 @@
 # Ovelia
 
-
-https://imgur.com/a0KiEAu
+https://i.imgur.com/a0KiEAu.png
 <p style="text-align: center;"><em>Redesign</em></p>
 
 ## Table of Contents
@@ -45,6 +44,67 @@ Created, designed, and developed by [Svetla Syrimis](https://github.com/svetlasy
 Team values, communication preferences, and other group expectations can be found on the [Ovelia- Redesign google doc](https://docs.google.com/document/d/1JdjdJwcXwCWbywYsNXTXL3d3OJm9BnaXuxp-JBNMiA0/edit).
 
 #### Project Inspiration
+Ovelianyc is modeled with functional inspiration from [Tavernakyclades] (http://www.tavernakyclades.com/).
+
+
+<br>
+<br>
+
+
+# Design
+
+## Sitemap
+![Sitemap](https://i.imgur.com/0xpkMSd.png)
+<p style="text-align: center;"><em>Sitemap</em></p>
+
+<br>
+
+## Wireframes
+
+
+# Development
+
+## Functional Goals
+
+## Functional Heirarchy
+
+> Files and directories that are key to our production (and thus, have been- or will be- edited) are listed here in tree form here. Subdirectories should appear first, followed by filenames.
+
+
+
+#### Component Timeframes
+
+> Time expectation (padded with an extra hour, minimum, to play it safe) go here.
+
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: |
+| Lorem ipsum | High | x hrs | y hrs |
+
+
+## Supporting Libraries
+
+
+> Packages installed via node go here.
+
+* Application Libraries
+  * axios
+  * material-ui
+  * react
+  * react-router-dom
+  * react-with-gesture
+  * Glo board 
+  * Girkrackeb
+  * react-star-rating
+  
+
+<br>
+<br>
+
+
+# Project Followup
+
+> Any tasks we would like to revisit after graduation go here.
+
 
 
 
