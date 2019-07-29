@@ -10,14 +10,22 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  height: 100px;
+  align-items: center;
+  min-height: 150px;
   /* justify-content: space-around; */
   align-items: center;
   font-size:26px;
+  margin-top: -20px;
   
 }
-.logo {
+/* .logo {
   flex: grow;
+} */
+.logo-nav {
+  
+  /* display: flex; */
+  justify-content: center;
+
 }
 .link-items {
   padding:15px;
@@ -29,7 +37,7 @@ body {
 .logo {
   border-radius: 100%;
   object-fit: cover;
-  z-index: 2;
+  z-index: 8;
   position: fixed;
   margin-left: 10px;
 }

@@ -8,8 +8,8 @@ const NavBar = props => {
 
   return (
     <nav className='nav'>
-      <div>
-        <img className="logo" src="/logo.jpeg" alt="" width="120px" height="120px" />
+      <div className="logo-nav">
+        <img className="logo" src="/logo.jpeg" alt="" width="180px" height="180px" />
       </div>
       <div className='link-items'>
         <Link to="/" className="link">Home</Link>
