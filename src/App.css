@@ -2,6 +2,31 @@
   text-align: center;
 }
 
+.carousel-caption {
+  left: -50%;
+  right: 10px;
+  font-family: 'Nunito', sans-serif;
+  bottom: 40px;
+  font-size: 64px;
+  letter-spacing: 1.37px;
+  color: #ffffff; 
+}
+
+.carousel-indicators li{
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  border: 4px solid white;
+  background:none;
+  margin-left: 6px;
+  opacity: 1;
+}
+
+.carousel-indicators li .active{
+  background-color: white;
+}
+
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
