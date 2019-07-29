@@ -1,4 +1,4 @@
-const dinnerMenu = [
+export const dinner_menu = [
   {
     "id": "1",
     "category": "Spreads",
@@ -257,5 +257,3 @@ const dinnerMenu = [
   },
 
 ]
-
-export default dinnerMenu;
