@@ -4,6 +4,7 @@ import axios from 'axios';
 import './App.css';
 import ControlledCarousel from './components/ControlledCarousel'
 import images from './services/images'
+import NavBar from './components/NavBar'
 
 
 
@@ -17,7 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Test</h1>
+        <NavBar />
         <ControlledCarousel images={this.state.images}/>
       </div>
     );
