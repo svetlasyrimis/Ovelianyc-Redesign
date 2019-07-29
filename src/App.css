@@ -89,4 +89,29 @@ span {
   
 }
 
+/* Pic section */
+
+.pic-section p {
+  text-align: center;
+  color: #747474;
+  font-size: 36px;
+  
+}
+
+.pic-gallery {
+  display: grid;
+  grid-template-rows: 350px 350px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px 48px;
+}
+
+.pic-gallery img {
+  object-fit: cover;
+  height: 350px;
+  width: 100%;
+  margin: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 
