@@ -1,6 +1,6 @@
 # Ovelia
 
-![Challenge](https://i.imgur.com/a0KiEAu.png)
+![Challenge](https://i.imgur.com/AIr7QbW.png)
 <p style="text-align: center;"><em>Redesign</em></p>
 
 ## Table of Contents
@@ -64,11 +64,6 @@ Ovelianyc is modeled with functional inspiration from [Tavernakyclades] (http://
 
 
 
-#### Tablet
-![Tablet Wireframe](https://i.imgur.com/WhleUDp.jpg)
-
-
-
 #### Mobile
 ![Mobile Wireframe](https://i.imgur.com/96F1tBQ.jpg)
 
@@ -124,7 +119,8 @@ Ovelianyc is modeled with functional inspiration from [Tavernakyclades] (http://
   * react-with-gesture
   * Glo board 
   * Girkrackeb
-  * react-star-rating
+  * React Bootstrap 
+  
   
 
 <br>
