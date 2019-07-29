@@ -8,6 +8,11 @@ import NavBar from './components/NavBar'
 import AboutUs from './components/AboutUs'
 import Footer from './components/Footer';
 
+import DinnerMenu from './components/Dinner'
+
+import PhotoSection from './components/PhotoSection'
+
+
 
 
 class App extends React.Component {
@@ -19,6 +24,7 @@ class App extends React.Component {
   }
   render() {
     return (
+
       <>
         <div className="App">
           <NavBar />
@@ -28,6 +34,16 @@ class App extends React.Component {
           <AboutUs />
         </div>
       </>
+
+      <div className="App">
+        <NavBar />
+        <ControlledCarousel images={this.state.images} />
+
+        <DinnerMenu />
+
+
+        <PhotoSection />
+      </div>
     );
   }
 }
