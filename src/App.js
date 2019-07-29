@@ -5,7 +5,11 @@ import './App.css';
 import ControlledCarousel from './components/ControlledCarousel'
 import images from './services/images'
 import NavBar from './components/NavBar'
+
+import DinnerMenu from './components/Dinner'
+
 import PhotoSection from './components/PhotoSection'
+
 
 
 
@@ -21,6 +25,10 @@ class App extends React.Component {
       <div className="App">
         <NavBar />
         <ControlledCarousel images={this.state.images} />
+
+        <DinnerMenu />
+
+
         <PhotoSection />
       </div>
     );
