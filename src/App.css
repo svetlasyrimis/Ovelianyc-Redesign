@@ -106,6 +106,35 @@ span {
   
 }
 
+
+.AboutUs{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 7em;
+  margin-bottom: 7em;
+}
+
+.Info{
+  font-family: 'Nunito', sans-serif;
+  margin-top: 2em;
+  margin-left: 5em;
+  height: 225px;
+  width:  518px;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.39px;
+  color: #4a4a4a;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
 /* Pic section */
 
 .pic-section p {

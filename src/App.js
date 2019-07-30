@@ -5,8 +5,14 @@ import './App.css';
 import ControlledCarousel from './components/ControlledCarousel'
 import images from './services/images'
 import NavBar from './components/NavBar'
+import AboutUs from './components/AboutUs'
+import Footer from './components/Footer';
+
+import DinnerMenu from './components/Dinner'
+
 import PhotoSection from './components/PhotoSection'
 import ContactForm from './components/ContactForm';
+
 
 
 
@@ -28,6 +34,17 @@ class App extends React.Component {
         <PhotoSection />
         <ContactForm />
       </div>
+      <>
+        <div className="App">
+          <NavBar />
+          <ControlledCarousel images={this.state.images} />
+        </div>
+        <div className="About Me">
+          <DinnerMenu />
+          <AboutUs />
+          <PhotoSection />
+        </div>
+      </>
     );
   }
 }
