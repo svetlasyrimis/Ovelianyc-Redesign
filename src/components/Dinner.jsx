@@ -10,8 +10,6 @@ export default class Dinner extends React.Component {
       dinner_Salads: dinner_Salads,
       dinner_sides: dinner_sides,
       dinner_Spreads: dinner_Spreads,
-
-
     }
   }
 

@@ -2,16 +2,16 @@ import React from 'react';
 import { Route, Switch, withRouter } from 'react-router-dom';
 import axios from 'axios';
 import './App.css';
-import ControlledCarousel from './components/ControlledCarousel'
-import images from './services/images'
-import NavBar from './components/NavBar'
-import AboutUs from './components/AboutUs'
+import ControlledCarousel from './components/ControlledCarousel';
+import images from './services/images';
+import NavBar from './components/NavBar';
+import AboutUs from './components/AboutUs';
 import Footer from './components/Footer';
-
-import DinnerMenu from './components/Dinner'
-
-import PhotoSection from './components/PhotoSection'
+import DinnerMenu from './components/Dinner';
+import CateringMenu from './components/Catering';
+import PhotoSection from './components/PhotoSection';
 import ContactForm from './components/ContactForm';
+
 
 
 
@@ -41,6 +41,8 @@ class App extends React.Component {
         </div>
         <div className="About Me">
           <DinnerMenu />
+          <CateringMenu />
+
           <AboutUs />
           <PhotoSection />
         </div>
