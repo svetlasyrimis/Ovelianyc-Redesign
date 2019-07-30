@@ -112,7 +112,7 @@ span {
   
 }
 
-
+/*About Us*/
 .AboutUs{
   display: flex;
   flex-direction: row;
@@ -134,11 +134,6 @@ span {
   line-height: normal;
   letter-spacing: 0.39px;
   color: #4a4a4a;
-}
-
-.form{
-  display: flex;
-  flex-direction: column;
 }
 
 /* Pic section */
@@ -165,6 +160,28 @@ span {
   padding-right: 50px;
 }
 
+
+/* Menu */
+.Dinner{
+    margin: 0 auto;
+    max-width: 60%;
+    font-family: 'Nunito', sans-serif;
+  }
+
+.menuItems {
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 40px;
+  color: #4a4a4a;
+}
+
+.namePrice {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
 /* contact form */
 .contact-section p {
   display: flex;
@@ -229,4 +246,6 @@ span {
 }
 
 
-
+/* .namePrice p{
+  margin-bottom: 0px;
+} */
