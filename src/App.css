@@ -107,7 +107,7 @@ span {
   
 }
 
-.carousel-indicators li .active{
+.carousel-indicators > li.active{
   background-color: white !important;
   
 }
