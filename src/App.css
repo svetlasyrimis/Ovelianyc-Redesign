@@ -1,23 +1,39 @@
 .App {
   /* text-align: center; */
   font-family: 'Nunito', sans-serif;
+  
 }
 body {
   margin: 0 auto;
 }
 /* Nav */
 .nav {
+  margin-top: 0px;
+  width: 100%;
+  position: fixed; 
+  height: 300px; 
+  top: 0;
+  
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  min-height: 150px;
+  /* min-height: 150px; */
+  
   /* justify-content: space-around; */
   align-items: center;
   font-size:26px;
-  margin-top: -20px;
+  /* margin-top: -20px; */
+ 
   
 }
+/* .sticky {
+  width: 100%;
+  position: fixed; 
+  min-height: 150px;
+  top: 0;
+  z-index: 10;
+} */
 /* .logo {
   flex: grow;
 } */
@@ -37,14 +53,15 @@ body {
 .logo {
   border-radius: 100%;
   object-fit: cover;
-  z-index: 8;
-  position: fixed;
+  /* z-index: 8; */
+  /* position: fixed; */
   margin-left: 10px;
 }
 .link {
   color: #747474;
   letter-spacing: 0.51px;
   text-decoration: none;
+  cursor: pointer;
   /* padding: 15px;
   margin: 20px; */
 }
@@ -95,7 +112,6 @@ span {
   text-align: center;
   color: #747474;
   font-size: 36px;
-  
 }
 
 .pic-gallery {
@@ -113,5 +129,69 @@ span {
   padding-left: 50px;
   padding-right: 50px;
 }
+
+/* contact form */
+.contact-section p {
+  display: flex;
+  align-self: center;
+  /* text-align: center; */
+}
+
+.contact-us {
+  font-size: 36px;
+  font-family: 'Nunito', sans-serif;
+  color: #747474;
+
+}
+.contact-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.contact-form {
+  /* margin: 0 auto; */
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  flex-basis: 500px;
+  flex-grow: 1;
+  /* width: max-content; */
+  height: 500px;
+}
+
+.contact-form .input {
+  display: flex;
+  font-style: oblique;
+  width: -webkit-fill-available;
+  margin: auto;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.form-address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.bold {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.address {
+  flex-grow: 1;
+  text-align: center;
+}
+
 
 
