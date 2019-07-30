@@ -45,8 +45,6 @@ export default class ControlledCarousel extends React.Component {
               <p>Modern Greek Food &</p>
               <p>coctails since 2006</p>
             </Carousel.Caption>
-
-
           </Carousel.Item>
         })}
       </Carousel>
