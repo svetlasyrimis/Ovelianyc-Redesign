@@ -31,22 +31,12 @@ class App extends React.Component {
       <div className="App">
         <NavBar />
         <ControlledCarousel  />
+        <DinnerMenu />
+       <CateringMenu />
+        <AboutUs />
         <PhotoSection />
         <ContactForm />
       </div>
-      <>
-        <div className="App">
-          <NavBar />
-          <ControlledCarousel images={this.state.images} />
-        </div>
-        <div className="About Me">
-          <DinnerMenu />
-          <CateringMenu />
-
-          <AboutUs />
-          <PhotoSection />
-        </div>
-      </>
     );
   }
 }
