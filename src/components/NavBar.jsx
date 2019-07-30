@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Button from 'react-bootstrap/Button'
 
 
@@ -12,10 +11,14 @@ const NavBar = props => {
         <img className="logo" src="/logo.jpeg" alt="" width="180px" height="180px" />
       </div>
       <div className='link-items'>
-        <Link to="/" className="link">Home</Link>
-        <Link to="/menu" className="link">Menu</Link>
+        <p onClick={(e) => { window.scrollTo({top: 0,
+  behavior: 'smooth'});}} className="link">Home</p>
+        <p className="link">Menu</p>
 
-        <Link to="/about" className="link">About Us</Link>
+        <p onClick={(e) => { window.scrollTo({top: 1500,
+  behavior: 'smooth'});}}className="link" >About Us</p>
+        <p onClick={(e) => { window.scrollTo(0, 1500); }} className="link">Contact</p>
+        
         <a href="https://resy.com/cities/ny/ovelia" className="link" target='blank'> <Button variant="danger" className='resy'>Book Now <span>Resy</span></Button> </a>
       </div>
     </nav>

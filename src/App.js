@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import DinnerMenu from './components/Dinner';
 import CateringMenu from './components/Catering';
 import PhotoSection from './components/PhotoSection';
+import ContactForm from './components/ContactForm';
 
 
 
@@ -18,32 +19,34 @@ import PhotoSection from './components/PhotoSection';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      images: images,
-    }
+    //   this.state = {
+    //     field: value
+    //  }
   }
+  
+
+  
   render() {
     return (
-
+      <div className="App">
+        <NavBar />
+        <ControlledCarousel  />
+        <PhotoSection />
+        <ContactForm />
+      </div>
       <>
         <div className="App">
           <NavBar />
           <ControlledCarousel images={this.state.images} />
         </div>
         <div className="About Me">
-
-
           <DinnerMenu />
           <CateringMenu />
 
           <AboutUs />
-
           <PhotoSection />
         </div>
       </>
-
-
-
     );
   }
 }
