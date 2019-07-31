@@ -97,7 +97,7 @@ export const dinner_Appetizer = [
     "price": "$21",
     "details": "ouzo steamed, PEI mussels, burnt butter, garlic, parsley, toasted baguette",
   },
-]
+];
 
 export const dinner_Entrees = [
   {
@@ -156,7 +156,7 @@ export const dinner_Entrees = [
     "price": "$23",
     "details": "wild rice, tomato, chickpeas, shrimp, curry",
   },
-]
+];
 
 export const dinner_Salads = [
   {
@@ -180,7 +180,7 @@ export const dinner_Salads = [
     "price": "$16.50",
     "details": "shredded red and white cabbage, carrot, arugula, radish, celery, lemon",
   },
-]
+];
 
 
 
@@ -230,7 +230,7 @@ export const dinner_sides = [
     "price": "$11",
     "details": "creamy inside, crispy outside, tahini yogurt",
   },
-]
+];
 
 
 export const dinner_Spreads = [
@@ -271,7 +271,7 @@ export const dinner_Spreads = [
     "price": "$19",
     "details": "KAFTERI TZATZIKI DIPS HUMMUS MELITZANOSALATA",
   },
-]
+];
 
 
 
