@@ -6,6 +6,14 @@
 body {
   margin: 0 auto;
 }
+.tabs {
+  position: unset !important;
+  display: flex;
+  font-size: 20px;
+  flex-direction: row;
+  justify-content: space-evenly !important;
+  align-items: center;
+}
 /* Nav */
 .nav {
   margin-top: 0px;
@@ -89,15 +97,22 @@ span {
 /* Carousel */
 .carousel {
   margin-top:120px;
+  background-blend-mode: darken;
 }
 .carousel-caption {
   left: -50%;
-  right: 10px;
+  
+  right: 20px;
   font-family: 'Nunito', sans-serif;
-  bottom: 40px;
+  display:flex;
+  flex-direction: column;
+  justify-items: flex-start;
   font-size: 64px;
   letter-spacing: 1.37px;
   color: #ffffff; 
+}
+.w-100{
+  background-blend-mode: darken;
 }
 
 .carousel-indicators li{
@@ -110,7 +125,7 @@ span {
   
 }
 
-.carousel-indicators li .active{
+.carousel-indicators > li.active{
   background-color: white !important;
   
 }

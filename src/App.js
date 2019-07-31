@@ -11,8 +11,8 @@ import DinnerMenu from './components/Dinner';
 import CateringMenu from './components/Catering';
 import PhotoSection from './components/PhotoSection';
 import ContactForm from './components/ContactForm';
-
-
+import TabsMenu from './components/ControlledTabs';
+import ControlledTabs from './components/ControlledTabs';
 
 
 
@@ -31,8 +31,9 @@ class App extends React.Component {
       <div className="App">
         <NavBar />
         <ControlledCarousel  />
-        <DinnerMenu />
-       <CateringMenu />
+        {/* <DinnerMenu />
+       <CateringMenu /> */}
+        <ControlledTabs />
         <AboutUs />
         <PhotoSection />
         <ContactForm />

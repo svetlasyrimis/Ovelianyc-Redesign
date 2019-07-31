@@ -97,7 +97,7 @@ export const dinner_Appetizer = [
     "price": "$21",
     "details": "black tahini, candied fig, manouri",
   },
-]
+];
 
 export const dinner_Entrees = [
   {
@@ -156,81 +156,81 @@ export const dinner_Entrees = [
     "price": "$23",
     "details": "wild rice, tomato, chickpeas, shrimp, curry",
   },
-]
+];
 
 export const dinner_Salads = [
   {
-    "id": "6",
+    "id": "1",
     "category": "Salads",
     "name": "GREEK SALAD",
     "price": "$17.50",
     "details": "plum tomato, cucumber, red onion, olives, double-cream feta",
   },
   {
-    "id": "7",
+    "id": "2",
     "category": "Salads",
     "name": "PRASINI SALAD",
     "price": "$15.50",
     "details": "romaine lettuce, dill, scallions, cucumber, manouri cheese",
   },
   {
-    "id": "8",
+    "id": "3",
     "category": "Salads",
     "name": "POLITIKI SALAD",
     "price": "$16.50",
     "details": "shredded red and white cabbage, carrot, arugula, radish, celery, lemon",
   },
-]
+];
 
 
 
 
 export const dinner_sides = [
   {
-    "id": "36",
+    "id": "1",
     "category": "Sides",
     "name": "CRACKED POTATO",
     "price": "$11",
     "details": "creamy inside, crispy outside, tahini yogurt",
   },
   {
-    "id": "35",
+    "id": "2",
     "category": "Sides",
     "name": "DECONSTRUCTED DOLMADES",
     "price": "$12",
     "details": "mixed grain rice, grape leaves, dill, scallion, mint, Greek yogurt",
   },
   {
-    "id": "31",
+    "id": "3",
     "category": "Sides",
     "name": "BEETS",
     "price": "$12",
     "details": "capers, dill, walnuts, garlic, yogurt",
   },
   {
-    "id": "32",
+    "id": "4",
     "category": "Sides",
     "name": "FRENCH FRIES",
     "price": "$10",
     "details": "seasoned hand cut fries",
   },
   {
-    "id": "33",
+    "id": "5",
     "category": "Sides",
     "name": "SAUTEED KALE",
     "price": "$11",
     "details": "garlic and extra virgin olive oil",
   },
   {
-    "id": "34",
+    "id": "6",
     "category": "Sides",
     "name": "OVEN ROASTED LEMON POTATOES",
     "price": "$10",
     "details": "",
   },
 
+  ];
 
-]
 
 
 export const dinner_Spreads = [
@@ -242,34 +242,34 @@ export const dinner_Spreads = [
     "details": "sautéed hot peppers, double-cream feta",
   },
   {
-    "id": "4",
+    "id": "2",
     "category": "Spreads",
     "name": "MELITZANOSALATA ",
     "price": "$12",
     "details": "fire roasted eggplant, sun dried tomatoes, fennel",
   },
   {
-    "id": "5",
+    "id": "3",
     "category": "Spreads",
     "name": "CHOICE OF THREE ",
     "price": "$19",
     "details": "KAFTERI TZATZIKI DIPS HUMMUS MELITZANOSALATA",
   },
   {
-    "id": "3",
+    "id": "4",
     "category": "Spreads",
     "name": "HUMMUS",
     "price": "$10",
     "details": "Chickpea, tahini, roasted garlic, black olive",
   },
   {
-    "id": "2",
+    "id": "5",
     "category": "Spreads",
     "name": "TZATZIKI",
     "price": "$12",
     "details": "Greek yogurt, cucumber, dill, garlic",
   },
-]
+];
 
 
 
