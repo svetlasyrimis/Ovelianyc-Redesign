@@ -7,8 +7,7 @@ class AboutUs extends React.Component {
       <div className="AboutUs">
           <div className="AboutImg">
             <img src={AboutUsPic}
-              width="650"
-              height="450"
+            alt="about-us"
             />
           </div>
         <div className="Info">

@@ -15,8 +15,9 @@ export default class Dinner extends React.Component {
 
   render() {
     return (
-      <div className="Dinner">
-        <div className="Dinner_menu">
+      <div className="Menu">
+
+        <div className="menuCategory">
           <h1>Appetizer</h1>
           <div className="menuItems">
             {this.state.dinner_Appetizer.map(foodItem => (
@@ -31,7 +32,7 @@ export default class Dinner extends React.Component {
           </div>
         </div>
 
-        <div className="Dinner_menu">
+        <div className="menuCategory">
           <h1>Entrees</h1>
           <div className="menuItems">
             {this.state.dinner_Entrees.map(foodItem => (
@@ -46,11 +47,11 @@ export default class Dinner extends React.Component {
           </div>
         </div>
 
-        <div className="Dinner_menu">
+        <div className="menuCategory">
           <h1>Salads</h1>
           <div className="menuItems">
             {this.state.dinner_Salads.map(foodItem => (
-             <div key={foodItem.id}>
+              <div key={foodItem.id}>
              <div className="namePrice">
                <p>{foodItem.name}</p>
                <p>{foodItem.price}</p>
@@ -61,7 +62,7 @@ export default class Dinner extends React.Component {
           </div>
         </div>
 
-        <div className="Dinner_menu">
+        <div className="menuCategory">
           <h1>Sides</h1>
           <div className="menuItems">
             {this.state.dinner_sides.map(foodItem => (
@@ -76,7 +77,7 @@ export default class Dinner extends React.Component {
           </div>
         </div>
 
-        <div className="Dinner_menu">
+        <div className="menuCategory">
           <h1>Spreads</h1>
           <div className="menuItems">
             {this.state.dinner_Spreads.map(foodItem => (
