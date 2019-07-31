@@ -10,9 +10,8 @@ export default class Dinner extends React.Component {
       dinner_Salads: dinner_Salads,
       dinner_sides: dinner_sides,
       dinner_Spreads: dinner_Spreads,
-    }
+    };
   }
-
   render() {
     return (
       <div className="Dinner">
@@ -50,13 +49,13 @@ export default class Dinner extends React.Component {
           <h1>Salads</h1>
           <div className="menuItems">
             {this.state.dinner_Salads.map(foodItem => (
-             <div key={foodItem.id}>
-             <div className="namePrice">
-               <p>{foodItem.name}</p>
-               <p>{foodItem.price}</p>
-             </div>
-             {foodItem.details}
-           </div>
+              <div key={foodItem.id}>
+                <div className="namePrice">
+                  <p>{foodItem.name}</p>
+                  <p>{foodItem.price}</p>
+                </div>
+                {foodItem.details}
+              </div>
             ))}
           </div>
         </div>
@@ -66,12 +65,12 @@ export default class Dinner extends React.Component {
           <div className="menuItems">
             {this.state.dinner_sides.map(foodItem => (
               <div key={foodItem.id}>
-              <div className="namePrice">
-                <p>{foodItem.name}</p>
-                <p>{foodItem.price}</p>
+                <div className="namePrice">
+                  <p>{foodItem.name}</p>
+                  <p>{foodItem.price}</p>
+                </div>
+                {foodItem.details}
               </div>
-              {foodItem.details}
-            </div>
             ))}
           </div>
         </div>
@@ -81,12 +80,12 @@ export default class Dinner extends React.Component {
           <div className="menuItems">
             {this.state.dinner_Spreads.map(foodItem => (
               <div key={foodItem.id}>
-              <div className="namePrice">
-                <p>{foodItem.name}</p>
-                <p>{foodItem.price}</p>
+                <div className="namePrice">
+                  <p>{foodItem.name}</p>
+                  <p>{foodItem.price}</p>
+                </div>
+                {foodItem.details}
               </div>
-              {foodItem.details}
-            </div>
             ))}
           </div>
         </div>
