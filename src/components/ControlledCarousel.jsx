@@ -43,8 +43,8 @@ export default class ControlledCarousel extends React.Component {
               className="d-block w-100"
             />
             <Carousel.Caption>
-              <p>Modern Greek Food &amp;</p>
-              <p>coctails since 2006</p>
+              <p>Modern Greek Food &</p>
+              <p>cocktails since 2006</p>
             </Carousel.Caption>
           </Carousel.Item>
         })}

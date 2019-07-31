@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button'
+import OveliaLogo from '../assets/OveliaLogo.png'
 
 
 const NavBar = props => {
@@ -8,7 +9,7 @@ const NavBar = props => {
   return (
     <nav className='nav'>
       <div className="logo-nav">
-        <img className="logo" src="/logo.jpeg" alt="" width="180px" height="180px" />
+        <img className="logo" src={OveliaLogo} alt="" width="180px" height="180px" />
       </div>
       <div className='link-items'>
         

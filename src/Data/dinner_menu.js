@@ -1,24 +1,10 @@
 export const dinner_Appetizer = [
   {
-    "id": "1",
+    "id": "11",
     "category": "Appetizers",
-    "name": "ZUCCHINI CHIPS",
-    "price": "$15",
-    "details": "dill, feta sauce",
-  },
-  {
-    "id": "2",
-    "category": "Appetizers",
-    "name": "LAHMATZOUN",
-    "price": "$14",
-    "details": "flat bread, minced lamb, pork, beef, onions, parsley",
-  },
-  {
-    "id": "3",
-    "category": "Appetizers",
-    "name": "KEFTEDAKIA",
-    "price": "$",
-    "details": "",
+    "name": "CHEESE PLATE",
+    "price": "$18",
+    "details": "kasseri, manouri, double cream feta, olives, candied walnut, mom's marmalade",
   },
   {
     "id": "4",
@@ -28,18 +14,18 @@ export const dinner_Appetizer = [
     "details": "thyme, rosemary, bacon, caramelized onion compote, toasted pita",
   },
   {
-    "id": "5",
+    "id": "14",
     "category": "Appetizers",
-    "name": "SAGANAKI",
-    "price": "$14",
-    "details": "pan fried kefalograviera",
+    "name": "MUSSELS MEZE",
+    "price": "$21",
+    "details": "ouzo steamed, PEI mussels, burnt butter, garlic, parsley, toasted baguette",
   },
   {
-    "id": "6",
+    "id": "2",
     "category": "Appetizers",
-    "name": "SPANAKOPITA",
-    "price": "$13",
-    "details": "Hand-wrapped",
+    "name": "LAHMATZOUN",
+    "price": "$14",
+    "details": "flat bread, minced lamb, pork, beef, onions, parsley",
   },
   {
     "id": "7",
@@ -49,32 +35,11 @@ export const dinner_Appetizer = [
     "details": "pulled leg of lamb, fries, kefalograviera",
   },
   {
-    "id": "8",
+    "id": "3",
     "category": "Appetizers",
-    "name": "FRIED GRILLED GIGANTES PLAKI",
-    "price": "$14",
-    "details": "giant beans, caramelized onions, fresh tomato sauce",
-  },
-  {
-    "id": "9",
-    "category": "Appetizers",
-    "name": "KONTOSOUVLI",
-    "price": "$17",
-    "details": "slow roasted rotisserie pork",
-  },
-  {
-    "id": "10",
-    "category": "Appetizers",
-    "name": "FETA CUBES",
-    "price": "$14",
-    "details": "sesame-crusted feta, Greek honey",
-  },
-  {
-    "id": "11",
-    "category": "Appetizers",
-    "name": "CHEESE PLATE",
-    "price": "$18",
-    "details": "kasseri, manouri, double cream feta, olives, candied walnut, mom's marmalade",
+    "name": "KEFTEDAKIA",
+    "price": "$15",
+    "details": "seasoned lamb, beef, pork meatballs",
   },
   {
     "id": "12",
@@ -84,18 +49,53 @@ export const dinner_Appetizer = [
     "details": "suatedd pulled lamb, eggplant bechamel",
   },
   {
+    "id": "10",
+    "category": "Appetizers",
+    "name": "FETA CUBES",
+    "price": "$14",
+    "details": "sesame-crusted feta, Greek honey",
+  },
+  {
+    "id": "6",
+    "category": "Appetizers",
+    "name": "SPANAKOPITA",
+    "price": "$13",
+    "details": "Hand-wrapped",
+  },
+  {
+    "id": "9",
+    "category": "Appetizers",
+    "name": "KONTOSOUVLI",
+    "price": "$17",
+    "details": "slow roasted rotisserie pork",
+  },
+  {
+    "id": "5",
+    "category": "Appetizers",
+    "name": "SAGANAKI",
+    "price": "$14",
+    "details": "pan fried kefalograviera",
+  },
+  {
+    "id": "1",
+    "category": "Appetizers",
+    "name": "ZUCCHINI CHIPS",
+    "price": "$15",
+    "details": "dill, feta sauce",
+  },
+  {
+    "id": "8",
+    "category": "Appetizers",
+    "name": "FRIED GRILLED GIGANTES PLAKI",
+    "price": "$14",
+    "details": "giant beans, caramelized onions, fresh tomato sauce",
+  },
+  {
     "id": "13",
     "category": "Appetizers",
     "name": "THICK CUT BACON",
-    "price": "$",
-    "details": "black tahini, candied fig, manouri",
-  },
-  {
-    "id": "14",
-    "category": "Appetizers",
-    "name": "MUSSELS MEZE",
     "price": "$21",
-    "details": "ouzo steamed, PEI mussels, burnt butter, garlic, parsley, toasted baguette",
+    "details": "black tahini, candied fig, manouri",
   },
 ];
 
@@ -111,7 +111,7 @@ export const dinner_Entrees = [
     "id": "2",
     "category": "Entrees",
     "name": "COUNTRY STYLE HALF CHICKEN",
-    "price": "$",
+    "price": "$24",
     "details": "organic, rough-cut, lemon potatoes",
   },
   {
@@ -160,21 +160,21 @@ export const dinner_Entrees = [
 
 export const dinner_Salads = [
   {
-    "id": "6",
+    "id": "1",
     "category": "Salads",
     "name": "GREEK SALAD",
     "price": "$17.50",
     "details": "plum tomato, cucumber, red onion, olives, double-cream feta",
   },
   {
-    "id": "7",
+    "id": "2",
     "category": "Salads",
     "name": "PRASINI SALAD",
     "price": "$15.50",
     "details": "romaine lettuce, dill, scallions, cucumber, manouri cheese",
   },
   {
-    "id": "8",
+    "id": "3",
     "category": "Salads",
     "name": "POLITIKI SALAD",
     "price": "$16.50",
@@ -187,50 +187,50 @@ export const dinner_Salads = [
 
 export const dinner_sides = [
   {
-    "id": "31",
+    "id": "1",
+    "category": "Sides",
+    "name": "CRACKED POTATO",
+    "price": "$11",
+    "details": "creamy inside, crispy outside, tahini yogurt",
+  },
+  {
+    "id": "2",
+    "category": "Sides",
+    "name": "DECONSTRUCTED DOLMADES",
+    "price": "$12",
+    "details": "mixed grain rice, grape leaves, dill, scallion, mint, Greek yogurt",
+  },
+  {
+    "id": "3",
     "category": "Sides",
     "name": "BEETS",
     "price": "$12",
     "details": "capers, dill, walnuts, garlic, yogurt",
   },
   {
-    "id": "32",
+    "id": "4",
     "category": "Sides",
     "name": "FRENCH FRIES",
     "price": "$10",
     "details": "seasoned hand cut fries",
   },
   {
-    "id": "33",
+    "id": "5",
     "category": "Sides",
     "name": "SAUTEED KALE",
     "price": "$11",
     "details": "garlic and extra virgin olive oil",
   },
   {
-    "id": "34",
+    "id": "6",
     "category": "Sides",
     "name": "OVEN ROASTED LEMON POTATOES",
     "price": "$10",
     "details": "",
   },
 
-  {
-    "id": "35",
-    "category": "Sides",
-    "name": "DECONSTRUCTED DOLMADES",
-    "price": "$12",
-    "details": "mixed grain rice, grape leaves, dill, scallion, mint, Greek yogurt",
-  },
+  ];
 
-  {
-    "id": "36",
-    "category": "Sides",
-    "name": "CRACKED POTATO",
-    "price": "$11",
-    "details": "creamy inside, crispy outside, tahini yogurt",
-  },
-];
 
 
 export const dinner_Spreads = [
@@ -240,36 +240,34 @@ export const dinner_Spreads = [
     "name": "KAFTERI",
     "price": "$12",
     "details": "sautéed hot peppers, double-cream feta",
-
-
   },
   {
     "id": "2",
-    "category": "Spreads",
-    "name": "TZATZIKI",
-    "price": "$12",
-    "details": "Greek yogurt, cucumber, dill, garlic",
-  },
-  {
-    "id": "3",
-    "category": "Spreads",
-    "name": "HUMMUS",
-    "price": "$10",
-    "details": "Chickpea, tahini, roasted garlic, black olive",
-  },
-  {
-    "id": "4",
     "category": "Spreads",
     "name": "MELITZANOSALATA ",
     "price": "$12",
     "details": "fire roasted eggplant, sun dried tomatoes, fennel",
   },
   {
-    "id": "5",
+    "id": "3",
     "category": "Spreads",
     "name": "CHOICE OF THREE ",
     "price": "$19",
     "details": "KAFTERI TZATZIKI DIPS HUMMUS MELITZANOSALATA",
+  },
+  {
+    "id": "4",
+    "category": "Spreads",
+    "name": "HUMMUS",
+    "price": "$10",
+    "details": "Chickpea, tahini, roasted garlic, black olive",
+  },
+  {
+    "id": "5",
+    "category": "Spreads",
+    "name": "TZATZIKI",
+    "price": "$12",
+    "details": "Greek yogurt, cucumber, dill, garlic",
   },
 ];
 
