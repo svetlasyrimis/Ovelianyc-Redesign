@@ -1,7 +1,7 @@
 import React from 'react';
 import { Brunch_Cold_Starters, Brunch_Hot_Starters, Brunch_Salads, Brunch_Egg_Fare, Brunch_Burger_Sandwiches, Brunch_Sweet_stuff, Brunch_Sides } from '../Data/brunch_Menu';
 
-class Brunch extends React.Component {
+export default class Brunch extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -16,8 +16,8 @@ class Brunch extends React.Component {
   }
   render() {
     return (
-      <div className="Dinner">
-        <div className="Dinner_menu">
+      <div className="Menu">
+        <div className="menuCategory">
           <h1>Cold Starters</h1>
           <div className="menuItems">
             {this.state.Brunch_Cold_Starters.map(foodItem => (
@@ -32,8 +32,8 @@ class Brunch extends React.Component {
           </div>
         </div>
 
-        <div className="Dinner_menu">
-          <h1>Cold Starters</h1>
+        <div className="menuCategory">
+          <h1>Hot Starters</h1>
           <div className="menuItems">
             {this.state.Brunch_Hot_Starters.map(foodItem => (
               <div key={foodItem.id}>
@@ -47,8 +47,8 @@ class Brunch extends React.Component {
           </div>
         </div>
 
-        <div className="Dinner_menu">
-          <h1>Cold Starters</h1>
+        <div className="menuCategory">
+          <h1>Salads</h1>
           <div className="menuItems">
             {this.state.Brunch_Salads.map(foodItem => (
               <div key={foodItem.id}>
@@ -62,8 +62,8 @@ class Brunch extends React.Component {
           </div>
         </div>
 
-        <div className="Dinner_menu">
-          <h1>Cold Starters</h1>
+        <div className="menuCategory">
+          <h1>Egg Fare</h1>
           <div className="menuItems">
             {this.state.Brunch_Egg_Fare.map(foodItem => (
               <div key={foodItem.id}>
@@ -77,8 +77,8 @@ class Brunch extends React.Component {
           </div>
         </div>
 
-        <div className="Dinner_menu">
-          <h1>Cold Starters</h1>
+        <div className="menuCategory">
+          <h1>Burger And Sandwiches</h1>
           <div className="menuItems">
             {this.state.Brunch_Burger_Sandwiches.map(foodItem => (
               <div key={foodItem.id}>
@@ -92,8 +92,8 @@ class Brunch extends React.Component {
           </div>
         </div>
 
-        <div className="Dinner_menu">
-          <h1>Cold Starters</h1>
+        <div className="menuCategory">
+          <h1>Sweet Stuff</h1>
           <div className="menuItems">
             {this.state.Brunch_Sweet_stuff.map(foodItem => (
               <div key={foodItem.id}>
@@ -107,8 +107,8 @@ class Brunch extends React.Component {
           </div>
         </div>
 
-        <div className="Dinner_menu">
-          <h1>Cold Starters</h1>
+        <div className="menuCategory">
+          <h1>Sides</h1>
           <div className="menuItems">
             {this.state.Brunch_Sides.map(foodItem => (
               <div key={foodItem.id}>
@@ -125,6 +125,3 @@ class Brunch extends React.Component {
     )
   }
 }
-
-
-export default Brunch;

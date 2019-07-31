@@ -142,7 +142,7 @@ span {
 .Info{
   font-family: 'Nunito', sans-serif;
   margin-top: 2em;
-  margin-right: 10em;
+  margin-right: 7em;
   height: 50%;
   width:  80%;
   font-size: 18px;
@@ -155,8 +155,9 @@ span {
 }
 
 .AboutImg img{
-  width: 85%;
-  height: 100%;
+  width: 75%;
+  height: 90%;
+  margin-right: 3em;
 }
 
 /* Pic section */

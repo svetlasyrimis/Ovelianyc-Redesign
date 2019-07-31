@@ -14,7 +14,7 @@ export default class Catering extends React.Component {
     return (
 
       <div className="Menu">
-        <div className="Catering_menu">
+        <div className="menuCategory">
           <h1>CATERING FOR 15</h1>
           <div className="menuItems">
             {this.state.catering_15.map(foodItem => (
@@ -28,10 +28,8 @@ export default class Catering extends React.Component {
             ))}
           </div>
         </div>
-        <div className="Catering_menu">
+        <div className="menuCategory">
           <h1>CATERING FOR 25</h1>
-
-
           <div className="menuItems">
             {this.state.catering_25.map(foodItem => (
               <div key={foodItem.id}>

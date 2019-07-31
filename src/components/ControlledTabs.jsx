@@ -19,6 +19,9 @@ const ControlledTabs = () => {
       <Tab eventKey="catering" title="Catering" >
         <Catering />
       </Tab>
+      <Tab eventKey="brunch" title="Brunch">
+        <Brunch />
+      </Tab>
     </Tabs>
   );
 }
