@@ -1,15 +1,17 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button'
 import OveliaLogo from '../assets/OveliaLogo.png'
+// let date = new Date().toJSON().slice(0, 10);
 
 
 const NavBar = props => {
-  let date = new Date().toJSON().slice(0, 10);
 
   return (
+    
     <nav className='nav'>
+      
       <div className="logo-nav">
-        <img className="logo" src={OveliaLogo} alt="" width="180px" height="180px" />
+        <img className="logo" src={OveliaLogo} alt="logo-pic" />
       </div>
       <div className='link-items'>
         
@@ -41,7 +43,7 @@ const NavBar = props => {
         });
         }} className="link">Contact</p>
         
-        <a href="https://resy.com/cities/ny/ovelia" className="link" target='blank'> <Button variant="danger" className='resy'>Book Now <span>Resy</span></Button> </a>
+        <a href="https://resy.com/cities/ny/ovelia" className="link" target='blank'> <Button variant="danger" className='resy'>Book Now <span className="white">RESY</span></Button> </a>
       </div>
     </nav>
 
