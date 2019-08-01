@@ -1,4 +1,3 @@
-import React from 'react';
 // const img2 = require('../ovelia_imgs/img_2.jpg')
 //src: img
 

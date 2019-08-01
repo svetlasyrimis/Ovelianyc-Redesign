@@ -1,18 +1,36 @@
-.App {
-  /* text-align: center; */
-  font-family: 'Nunito', sans-serif;
-  
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+  -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+  outline: none !important;
 }
+/* .white {
+  background-color: white;
+  color: red;
+} */
+.App {
+  font-family: 'Nunito', sans-serif; 
+}
+
 body {
   margin: 0 auto;
+  overflow-x: hidden;
 }
-.tabs {
-  position: unset !important;
+footer {
   display: flex;
-  font-size: 20px;
   flex-direction: row;
-  justify-content: space-evenly !important;
+  justify-content: center;
   align-items: center;
+}
+.footer-icon, .footer-icon-i {
+  margin: 5px;
+  padding: 5px;
+  width: 70px;
+  height: 70px;
+}
+
+.footer-icon-i {
+  width: 65px;
+  height: 60px;
 }
 /* Nav */
 .nav {
@@ -28,34 +46,28 @@ body {
   align-items: center;
   background-color: white;
   /* min-height: 150px; */
-  
   /* justify-content: space-around; */
   align-items: center;
   font-size:26px;
-  /* margin-top: -20px; */
- 
-  
 }
-/* .sticky {
-  width: 100%;
-  position: fixed; 
-  min-height: 150px;
-  top: 0;
-  z-index: 10;
-} */
-/* .logo {
-  flex: grow;
-} */
+
+
 .logo-nav {
-  
-  /* display: flex; */
   justify-content: center;
   margin-top: 50px;
   background-color: white;
   border: solid 0.5px #322620;
-  border-radius: 100% 100% 100% 100%;
-
+  border-radius: 100%;
+  object-fit: cover;
+  margin-left: 10px;
 }
+
+.logo {
+  width: 180px;
+  height: 180px;
+  margin-left: 10px;
+}
+
 .link-items {
   margin-bottom: 30px;
   padding:15px;
@@ -64,13 +76,6 @@ body {
   justify-content: space-around;
 }
 
-.logo {
-  border-radius: 100%;
-  object-fit: cover;
-  /* z-index: 8; */
-  /* position: fixed; */
-  margin-left: 10px;
-}
 .link {
   color: #747474;
   letter-spacing: 0.51px;
@@ -89,20 +94,25 @@ body {
 }
 span {
   background-color: white;
+  padding: 1px;
+  color: red;
+  font-size: bold;
 }
 
 /* span p {
   color: red !important;
 } */
+
 /* Carousel */
 .carousel {
   margin-top:120px;
   background-blend-mode: darken;
 }
+
 .carousel-caption {
-  left: -50%;
-  
-  right: 20px;
+  left: -30%;
+  right: 0;
+  padding: 30px;
   font-family: 'Nunito', sans-serif;
   display:flex;
   flex-direction: column;
@@ -122,7 +132,7 @@ span {
   border: 4px solid white;
   background:none;
   margin-left: 6px;
-  
+  margin-bottom: 20px;
 }
 
 .carousel-indicators > li.active{
@@ -130,39 +140,77 @@ span {
   
 }
 
+.carousel-control-next, .carousel-control-prev {
+  width: 7%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 30px;
+  height: 30px;
+}
+.d-block,.w-100 {
+  filter: brightness(50%);
+}
+.title {
+  text-align: center;
+  color: #747474;
+  font-size: 36px;
+}
+/* Tabs */
+/* Color tabs - active and non-active */
+/* .nav-item, .nav-link {
+   
+} */
+.tabs {
+  position: unset !important;
+  display: flex;
+  font-size: 28px !important;
+  
+  flex-direction: row;
+  justify-content: space-evenly !important;
+  align-items: center;
+}
+
 /*About Us*/
 .AboutUs{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  align-items:center;
+  padding: 20px;
   margin-top: 7em;
   margin-bottom: 7em;
 }
 
 .Info{
   font-family: 'Nunito', sans-serif;
-  margin-top: 2em;
-  margin-right: 7em;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  /* either one for media query  */
+  justify-content: center;
   height: 50%;
   width:  80%;
   font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.39px;
+  margin-right: 3em;
   color: #4a4a4a;
 }
 
-.AboutImg img{
-  width: 75%;
-  height: 90%;
-  margin-right: 3em;
+.about_img {
+  display:flex;
+  align-self: center;
+  width: 80%;
+  height: 70%; 
+  
+}
+.div-img {
+  width: fit-content;
+  display:flex;
+  justify-content: center;
 }
 
 /* Pic section */
 
-.pic-section p {
+.pic-section p,.our-menu{
   text-align: center;
   color: #747474;
   font-size: 36px;
@@ -186,16 +234,19 @@ span {
 
 
 /* Menu */
-.Menu{
-    margin: 0 auto;
-    max-width: 60%;
-    font-family: 'Nunito', sans-serif;
-  }
+.menu-section {
+  margin:3em;
+}
+.Menu { 
+  margin: 0 auto;
+  max-width: 60%;
+  font-family: 'Nunito', sans-serif;
+}
 
-  .menuCategory {
+.menuCategory {
     margin-top: 50px;
     margin-bottom: 50px;
-  }
+}
 
 .Menu h1{
   font-size: 22px;
@@ -289,40 +340,83 @@ span {
   margin-bottom: 20px;
 } */
 
+
 /* Media Query  Tablet*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    
+    .logo {
+      width:145px;
+      height:145px;
+    }
+    .link-items {
+      font-size: 22px;
+    }
+    
+    .AboutUs {
+      display: unset;
+    }
+    .Info {
+      width:98%;
+      padding: 20px;
+      
+    }
+    .carousel-caption {
+      font-size: 50px;
+    }
+    .carousel-indicators li {
+      width: 10px;
+      height: 10px;
+    }
+    .pic-gallery  {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 40px 38px;
+      padding:20px;
+    }
+    .pic-gallery img {
+      height: 300px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .form-address {
+      display: unset;
+    }
+}
 @media only screen
   and (max-width: 980px){
 
     /*About Us*/
 
-    .AboutUs{
+    /* .AboutUs{
       display: unset;
       flex-direction: row;
       justify-content: center;
       margin-top: 7em;
       margin-bottom: 7em;
-    }
+    } */
   }
 
-  .AboutImg img{
+  /* .AboutImg img{
     width: 100%;
     height: 100%;
     margin-right: unset;
     
-  }
+  } */
   
-  .Info{
+  /* .Info{
     height: 100%;
     width:  100%;
-  }
+  } */
   
   /*Menu*/
-  .menuItems {
+  /* .menuItems {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column-gap: 40px;
 
-  }
+  } */
 
 
   /* Media Query Phone*/
@@ -330,22 +424,25 @@ span {
   and (max-width: 480px){
 
   /*About Us*/
-
+    body {
+      overflow-x: hidden;
+    }
     .AboutUs{
       display: unset;
       flex-direction: row;
       justify-content: center;
+      
       margin-top: 7em;
       margin-bottom: 7em;
     }
   }
-  .AboutImg img{
+  /* .AboutImg img{
     width: 100%;
     height: 100%;
     margin-right: unset;
-  }
-  .Info{
+  } */
+  /* .Info{
     height: 100%;
     width:  100%;
-  }
+  } */
   

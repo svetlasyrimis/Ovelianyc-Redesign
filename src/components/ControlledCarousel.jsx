@@ -25,22 +25,27 @@ export default class ControlledCarousel extends React.Component {
 
   render() {
     const { index, direction } = this.state;
-
+    const overlay = {
+      backgroundBlendMode : 'darken'
+    }
     // d-block w-100
     return (
       <Carousel
         activeIndex={index}
         direction={direction}
         onSelect={this.handleSelect}
+        
       >
         {images.map((image) => {
-          return <Carousel.Item>
-            <img key={image.id}
+          return <Carousel.Item key={image.id}>
+            <img 
               width='500px'
               height='600px'
               src={image.src}
               description={image.description}
               className="d-block w-100"
+              alt="restaurant-pic"
+              style={overlay}
             />
             <Carousel.Caption>
               <p>Modern Greek Food &</p>

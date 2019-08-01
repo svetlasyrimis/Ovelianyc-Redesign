@@ -1,42 +1,42 @@
 import React from 'react';
-import { Route, Switch, withRouter } from 'react-router-dom';
-import axios from 'axios';
 import './App.css';
 import ControlledCarousel from './components/ControlledCarousel';
-import images from './services/images';
 import NavBar from './components/NavBar';
 import AboutUs from './components/AboutUs';
-import Footer from './components/Footer';
-import DinnerMenu from './components/Dinner';
-import CateringMenu from './components/Catering';
 import PhotoSection from './components/PhotoSection';
 import ContactForm from './components/ContactForm';
-import TabsMenu from './components/ControlledTabs';
 import ControlledTabs from './components/ControlledTabs';
-
+import OurMenu from './components/OurMenu'
+import Footer from './components/Footer'
 
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    //   this.state = {
-    //     field: value
-    //  }
-  }
   
+  constructor(props) {
+    super(props)
+    this.myRef = React.createRef()   // Create a ref object 
+  }
+
+  // componentDidUpdate() {
+  // this.myRef.current.scrollTo(0, 0);
+  // }
+  componentDidUpdate() {
+    window.scrollTo(0, 0);
+  }
 
   
   render() {
     return (
-      <div className="App">
+      <div className="App" ref={this.myRef} >
+        
         <NavBar />
-        <ControlledCarousel  />
-        {/* <DinnerMenu />
-       <CateringMenu /> */}
+        <ControlledCarousel />
+        <OurMenu />
         <ControlledTabs />
         <AboutUs />
         <PhotoSection />
         <ContactForm />
+        <Footer />
       </div>
     );
   }
