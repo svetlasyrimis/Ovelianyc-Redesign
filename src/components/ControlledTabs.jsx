@@ -9,20 +9,22 @@ import Brunch from './Brunch'
 
 
 const ControlledTabs = () => {
- 
+
 
   return (
-    <Tabs id="menu" defaultActiveKey="dinner"  className="tabs">
-      <Tab eventKey="dinner" title="Dinner" >
-        <Dinner />
-      </Tab>
-      <Tab eventKey="catering" title="Catering" >
-        <Catering />
-      </Tab>
-      <Tab eventKey="brunch" title="Brunch">
-        <Brunch />
-      </Tab>
-    </Tabs>
+    <div className="menu-tabs">
+      <Tabs id="menu" defaultActiveKey="dinner" className="tabs">
+        <Tab eventKey="dinner" title="Dinner" >
+          <Dinner />
+        </Tab>
+        <Tab eventKey="catering" title="Catering" >
+          <Catering />
+        </Tab>
+        <Tab eventKey="brunch" title="Brunch">
+          <Brunch />
+        </Tab>
+      </Tabs>
+    </div>
   );
 }
 
