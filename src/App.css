@@ -433,7 +433,10 @@ span {
 
 /* Media Query Phone*/
 
-@media only screen and (max-width: 480px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
   /*About Us*/
   body {
     overflow-x: hidden;
@@ -448,38 +451,65 @@ span {
   .logo {
     display: none;
   }
+  .carousel {
+    margin-bottom: 0;
+  }
+  .carousel-caption {
+    font-size: 28px;
+    bottom:40px;
+    left: 0;
+  }
+  .carousel-indicators li {
+    width: 7px;
+    height: 7px;
+  }
   .menuItems {
     display: block;
   }
+  .menu-section {
+    margin :1.2em;
+  }
   .Menu {
     max-width: 80%;
+    
+  }
+  .tabs .nav,.nav-tabs {
+    height: 50px;
+  }
+  .nav {
+    z-index: 0 !important;
+  }
+  .title{
+    margin: 0;
   }
   #mobile-pic-gallery {
     display: grid;
     grid-template-columns: 49% 49%;
-    grid-gap: 2%;
+    grid-gap: 1.2%;
   }
   #mobile-pic-gallery img {
     width: 100%;
-    padding: 20px;
+    padding: 7px;
     height: 150px;
   }
   .pic-gallery {
     display: none;
   }
   .tabs {
+    
     display: flex;
-    font-size: 12px !important;
+    font-size: 16px !important;
     flex-direction: row;
     justify-content: space-evenly !important;
     align-items: center;
   }
   .carousel-caption {
-    font-size: 18px;
+    font-size: 20px;
   }
   .carousel-indicators li {
     width: 5px;
     height: 5px;
+    border:1.5px solid white;
   }
   .link-items {
     font-size: 20px;
@@ -491,6 +521,7 @@ span {
   }
   .AboutUs {
     display: unset;
+    margin:0;
   }
   .Info {
     width: 98%;
@@ -500,6 +531,22 @@ span {
     display: unset;
   }
   .d-block, .w-100 {
-    height: 250px;
+    height: 320px;
   }
+  .pic-section p {
+    font-size: 28px;
+    margin: 8px;
+  }
+  .contact-us {
+    font-size: 28px;
+
+  }
+  /* .small {
+    display:unset;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+
+  } */
 }
