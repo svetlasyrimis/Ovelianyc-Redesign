@@ -31,7 +31,7 @@ export default class Dinner extends React.Component {
           </div>
         </div>
 
-        <div className="menuCategory">
+        <div className="menuCategory sometimes-hidden">
           <h1>Entrees</h1>
           <div className="menuItems">
             {this.state.dinner_Entrees.map(foodItem => (
