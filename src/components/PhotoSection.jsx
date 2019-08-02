@@ -13,6 +13,10 @@ const PhotoSection = () => {
         <img src={require('../ovelia_imgs/img_10.jpg')} alt="rest pic" />
         <img src={require('../ovelia_imgs/img_14.jpg')} alt="rest pic" />
       </div>
+      <div id="mobile-pic-gallery">
+        <img src={require('../ovelia_imgs/img_2.jpg')} alt="rest pic" />
+        <img src={require('../ovelia_imgs/img_3.jpg')} alt="rest pic" />
+      </div>
     </section>
   )
 }
