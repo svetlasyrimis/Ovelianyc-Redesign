@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 
 
 class App extends React.Component {
-  
+
   constructor(props) {
     super(props)
     this.myRef = React.createRef()   // Create a ref object 
@@ -24,11 +24,11 @@ class App extends React.Component {
     window.scrollTo(0, 0);
   }
 
-  
+
   render() {
     return (
       <div className="App" ref={this.myRef} >
-        
+
         <NavBar />
         <ControlledCarousel />
         <OurMenu />

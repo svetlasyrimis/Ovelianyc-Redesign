@@ -1,26 +1,30 @@
 * {
-  -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
-  -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+  -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
   outline: none !important;
 }
+
 /* .white {
   background-color: white;
   color: red;
 } */
+
 .App {
-  font-family: 'Nunito', sans-serif; 
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
   margin: 0 auto;
   overflow-x: hidden;
 }
+
 footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
 .footer-icon, .footer-icon-i {
   margin: 5px;
   padding: 5px;
@@ -32,12 +36,14 @@ footer {
   width: 65px;
   height: 60px;
 }
+
 /* Nav */
+
 .nav {
   margin-top: 0px;
   width: 100%;
-  position: fixed; 
-  height: 140px; 
+  position: fixed;
+  height: 140px;
   top: 0;
   z-index: 99;
   display: flex;
@@ -48,9 +54,8 @@ footer {
   /* min-height: 150px; */
   /* justify-content: space-around; */
   align-items: center;
-  font-size:26px;
+  font-size: 26px;
 }
-
 
 .logo-nav {
   justify-content: center;
@@ -70,7 +75,7 @@ footer {
 
 .link-items {
   margin-bottom: 30px;
-  padding:15px;
+  padding: 15px;
   min-width: 600px;
   display: flex;
   justify-content: space-around;
@@ -90,8 +95,9 @@ footer {
   font-weight: bold;
   font-style: normal;
   color: #ffffff;
-  cursor:pointer;
+  cursor: pointer;
 }
+
 span {
   background-color: white;
   padding: 1px;
@@ -104,8 +110,9 @@ span {
 } */
 
 /* Carousel */
+
 .carousel {
-  margin-top:120px;
+  margin-top: 120px;
   background-blend-mode: darken;
 }
 
@@ -114,103 +121,110 @@ span {
   right: 0;
   padding: 30px;
   font-family: 'Nunito', sans-serif;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-items: flex-start;
   font-size: 64px;
   letter-spacing: 1.37px;
-  color: #ffffff; 
+  color: #ffffff;
 }
-.w-100{
+
+.w-100 {
   background-blend-mode: darken;
 }
 
-.carousel-indicators li{
+.carousel-indicators li {
   width: 16px;
   height: 16px;
   border-radius: 100%;
   border: 4px solid white;
-  background:none;
+  background: none;
   margin-left: 6px;
   margin-bottom: 20px;
 }
 
-.carousel-indicators > li.active{
+.carousel-indicators>li.active {
   background-color: white !important;
-  
 }
 
 .carousel-control-next, .carousel-control-prev {
   width: 7%;
 }
+
 .carousel-control-next-icon, .carousel-control-prev-icon {
   width: 30px;
   height: 30px;
 }
-.d-block,.w-100 {
+
+.d-block, .w-100 {
   filter: brightness(50%);
 }
+
 .title {
   text-align: center;
   color: #747474;
   font-size: 36px;
 }
+
 /* Tabs */
+
 /* Color tabs - active and non-active */
+
 /* .nav-item, .nav-link {
    
 } */
+
 .tabs {
   position: unset !important;
   display: flex;
   font-size: 28px !important;
-  
   flex-direction: row;
   justify-content: space-evenly !important;
   align-items: center;
 }
 
 /*About Us*/
-.AboutUs{
+
+.AboutUs {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items:center;
+  align-items: center;
   padding: 20px;
   margin-top: 7em;
   margin-bottom: 7em;
 }
 
-.Info{
+.Info {
   font-family: 'Nunito', sans-serif;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   /* either one for media query  */
   justify-content: center;
   height: 50%;
-  width:  80%;
+  width: 80%;
   font-size: 18px;
   margin-right: 3em;
   color: #4a4a4a;
 }
 
 .about_img {
-  display:flex;
+  display: flex;
   align-self: center;
   width: 80%;
-  height: 70%; 
-  
+  height: 70%;
 }
+
 .div-img {
   width: fit-content;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
 /* Pic section */
 
-.pic-section p,.our-menu{
+.pic-section p, .our-menu {
   text-align: center;
   color: #747474;
   font-size: 36px;
@@ -236,29 +250,30 @@ span {
   padding-right: 50px;
 }
 
-
 /* Menu */
+
 .menu-section {
-  margin:3em;
+  margin: 3em;
 }
-.Menu { 
+
+.Menu {
   margin: 0 auto;
   max-width: 60%;
   font-family: 'Nunito', sans-serif;
 }
 
 .menuCategory {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.Menu h1{
+.Menu h1 {
   font-size: 22px;
   font-weight: 900;
   color: #747474;
   margin-top: 12px;
   letter-spacing: 0.51px;
-}  
+}
 
 .menuItems {
   font-size: 14px;
@@ -277,6 +292,7 @@ span {
 }
 
 /* contact form */
+
 .contact-section p {
   display: flex;
   align-self: center;
@@ -287,8 +303,8 @@ span {
   font-size: 36px;
   font-family: 'Nunito', sans-serif;
   color: #747474;
-
 }
+
 .contact-section {
   padding: 20px;
   display: flex;
@@ -296,6 +312,7 @@ span {
   justify-content: space-around;
   /* align-items: center; */
 }
+
 .contact-form {
   /* margin: 0 auto; */
   padding: 40px;
@@ -339,125 +356,150 @@ span {
   text-align: center;
 }
 
-
 /* .namePrice p{
   margin-bottom: 20px;
 } */
 
-
 /* Media Query  Tablet*/
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    
-    .logo {
-      width:145px;
-      height:145px;
-    }
-    .link-items {
-      font-size: 22px;
-    }
-    
-    .AboutUs {
-      display: unset;
-    }
-    .Info {
-      width:98%;
-      padding: 20px;
-      
-    }
-    .carousel-caption {
-      font-size: 50px;
-    }
-    .carousel-indicators li {
-      width: 10px;
-      height: 10px;
-    }
-    .pic-gallery  {
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 40px 38px;
-      padding:20px;
-    }
-    .pic-gallery img {
-      height: 300px;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    .form-address {
-      display: unset;
-    }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .logo {
+    width: 145px;
+    height: 145px;
+  }
+  .link-items {
+    font-size: 22px;
+  }
+  .AboutUs {
+    display: unset;
+  }
+  .Info {
+    width: 98%;
+    padding: 20px;
+  }
+  .carousel-caption {
+    font-size: 50px;
+  }
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+  }
+  .pic-gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px 38px;
+    padding: 20px;
+  }
+  .pic-gallery img {
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .form-address {
+    display: unset;
+  }
 }
-@media only screen
-  and (max-width: 980px){
 
-    /*About Us*/
-
-    /* .AboutUs{
+@media only screen and (max-width: 980px) {
+  /*About Us*/
+  /* .AboutUs{
       display: unset;
       flex-direction: row;
       justify-content: center;
       margin-top: 7em;
       margin-bottom: 7em;
     } */
-  }
+}
 
-  /* .AboutImg img{
+/* .AboutImg img{
     width: 100%;
     height: 100%;
     margin-right: unset;
     
   } */
-  
-  /* .Info{
+
+/* .Info{
     height: 100%;
     width:  100%;
   } */
-  
-  /*Menu*/
-  /* .menuItems {
+
+/*Menu*/
+
+/* .menuItems {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column-gap: 40px;
 
   } */
 
+/* Media Query Phone*/
 
-  /* Media Query Phone*/
-  @media only screen
-  and (max-width: 480px){
-
+@media only screen and (max-width: 480px) {
   /*About Us*/
-    body {
-      overflow-x: hidden;
-    }
-    .AboutUs{
-      display: unset;
-      flex-direction: row;
-      justify-content: center;
-      
-      margin-top: 7em;
-      margin-bottom: 7em;
-    }
-    .menuItems {
-      display: block;
-    }
-    .Menu {
-      max-width: 80%;
+  body {
+    overflow-x: hidden;
+  }
+  .AboutUs {
+    display: unset;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 7em;
+    margin-bottom: 7em;
+  }
+  .logo {
+    display: none;
+  }
+  .menuItems {
+    display: block;
+  }
+  .Menu {
+    max-width: 80%;
   }
   #mobile-pic-gallery {
     display: grid;
-    grid-template-columns: 45% 45%;
-    grid-gap: 10%;
+    grid-template-columns: 49% 49%;
+    grid-gap: 2%;
   }
-
   #mobile-pic-gallery img {
     width: 100%;
-    height: 200px;
+    padding: 20px;
+    height: 150px;
   }
-
   .pic-gallery {
     display: none;
   }
+  .tabs {
+    display: flex;
+    font-size: 12px !important;
+    flex-direction: row;
+    justify-content: space-evenly !important;
+    align-items: center;
   }
-  
+  .carousel-caption {
+    font-size: 18px;
+  }
+  .carousel-indicators li {
+    width: 5px;
+    height: 5px;
+  }
+  .link-items {
+    font-size: 20px;
+    font-style: bold;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .AboutUs {
+    display: unset;
+  }
+  .Info {
+    width: 98%;
+    padding: 20px;
+  }
+  .form-address {
+    display: unset;
+  }
+  .d-block, .w-100 {
+    height: 250px;
+  }
+}
