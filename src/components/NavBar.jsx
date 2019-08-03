@@ -4,8 +4,14 @@ import OveliaLogo from '../assets/OveliaLogo.png'
 // let date = new Date().toJSON().slice(0, 10);
 import { Navbar, Nav } from 'react-bootstrap';
 
-const NavBars = props => {
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
+
+export default class NavBar extends React.Component {
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+  render() {
   return (
 
     <nav className='nav'>
@@ -18,34 +24,46 @@ const NavBars = props => {
           <Nav className="mr-auto">
             <div className='link-items'>
 
-              <p onClick={(e) => {
-                window.scrollTo({
-                  top: 0,
-                  behavior: 'smooth'
-                });
+              <p className="link" onClick={this.scrollToTop}>Home</p>
 
-              }} className="link">Home</p>
-
-              <p onClick={(e) => {
-                window.scrollTo({
-                  top: 600,
-                  behavior: 'smooth'
-                });
-              }} className="link">Menu</p>
-
-              <p onClick={(e) => {
-                window.scrollTo({
-                  top: 2800,
-                  behavior: 'smooth'
-                });
-              }} className="link" >About Us</p>
-
-              <p onClick={(e) => {
-                window.scrollTo({
-                  top: 4300,
-                  behavior: 'smooth'
-                });
-              }} className="link">Contact</p>
+              <p className="link">
+                <Link
+                  activeClass="active"
+                  to="menu"
+                  spy={true}
+                  smooth={true}
+                  offset={-150}
+                  duration={800}
+                >
+                  Menu
+              </Link>
+              </p>
+              
+              <p className="link">
+                <Link
+                  activeClass="active"
+                  to="about-us"
+                  spy={true}
+                  smooth={true}
+                  offset={-120}
+                  duration={800}
+                >
+                  About Us
+              </Link>
+              </p>
+            
+              <p className="link">
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-120}
+                  duration={800}
+                >
+                  Contact
+              </Link>
+              </p>
 
               <a href="https://resy.com/cities/ny/ovelia" className="link" target='blank'> <Button variant="danger" className='resy'>Book Now <span className="white">RESY</span></Button> </a>
             </div>
@@ -58,5 +76,5 @@ const NavBars = props => {
 
   )
 }
+}
 
-export default NavBars

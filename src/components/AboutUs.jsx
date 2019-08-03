@@ -4,7 +4,7 @@ import AboutUsPic from '../assets/AboutUsPic.png'
 class AboutUs extends React.Component {
   render() {
     return (
-      <div className="AboutUs">
+      <div className="AboutUs" id="about-us">
           <div className="div-img">
             <img src={AboutUsPic} className="about_img"
             alt="about-us"
