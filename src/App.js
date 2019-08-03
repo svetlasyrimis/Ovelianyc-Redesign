@@ -8,33 +8,16 @@ import ContactForm from './components/ContactForm';
 import ControlledTabs from './components/ControlledTabs';
 import OurMenu from './components/OurMenu'
 import Footer from './components/Footer'
-import { Link, animateScroll as scroll } from "react-scroll";
+
 
 class App extends React.Component {
 
   constructor(props) {
     super(props)
-    // this.myRef = React.createRef()   // Create a ref object 
-    // this.scrollToTop = this.scrollToTop.bind(this);
+    this.myRef = React.createRef()   // Create a ref object 
+    
   }
-  // scrollToTop() {
-  //   scroll.scrollToTop();
-  // }
-  // scrollTo = (offset) => {
-  //   scroller.scrollTo('scroll-to-element', {
-  //     duration: 800,
-  //     delay: 0,
-  //     smooth: 'easeInOutQuart',
-  //     offset: offset
-  //   })
-  // }
-  // componentDidUpdate() {
-  // this.myRef.current.scrollTo(0, 0);
-  // }
-  // componentDidUpdate() {
-  //   window.scrollTo(0, 0);
-  // }
-
+  
 
   render() {
     return (

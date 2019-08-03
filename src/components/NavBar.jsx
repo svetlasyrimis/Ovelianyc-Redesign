@@ -4,7 +4,7 @@ import OveliaLogo from '../assets/OveliaLogo.png'
 // let date = new Date().toJSON().slice(0, 10);
 import { Navbar, Nav } from 'react-bootstrap';
 
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link,  animateScroll as scroll } from 'react-scroll'
 
 
 export default class NavBar extends React.Component {
@@ -45,7 +45,7 @@ export default class NavBar extends React.Component {
                   to="about-us"
                   spy={true}
                   smooth={true}
-                  offset={-120}
+                  offset={-170}
                   duration={800}
                 >
                   About Us

@@ -48,7 +48,7 @@ export default class ControlledCarousel extends React.Component {
               style={overlay}
             />
             <Carousel.Caption>
-              <p>Modern Greek Food & Cocktails</p>
+              <p className="big">Modern Greek Food & Cocktails</p>
               <p className='small'>since 2006</p>
             </Carousel.Caption>
           </Carousel.Item>
