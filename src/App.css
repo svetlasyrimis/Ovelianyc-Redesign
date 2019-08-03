@@ -55,6 +55,7 @@ footer {
   /* justify-content: space-around; */
   align-items: center;
   font-size: 26px;
+  padding-left:30px;
 }
 
 .logo-nav {
@@ -74,7 +75,7 @@ footer {
 }
 
 .link-items {
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   padding: 15px;
   min-width: 600px;
   display: flex;
@@ -86,23 +87,40 @@ footer {
   letter-spacing: 0.51px;
   text-decoration: none;
   cursor: pointer;
-  /* padding: 15px;
-  margin: 20px; */
+  
+  padding-left: 15px;
+  padding-right: 15px;
+  /* margin: 20px; */
 }
-
+/* E83E33 */
 .resy {
   font-family: Arial;
   font-weight: bold;
-  font-style: normal;
+  
+  padding: 10px;
+  /* height: 50px;
+  width:200px; */
   color: #ffffff;
   cursor: pointer;
 }
 
+.resy :hover {
+  color: #4a4a4a;
+}
+.btn-danger {
+  background-color: #E83E33;
+  /* letter-spacing:1px; */
+}
+
 span {
   background-color: white;
-  padding: 1px;
-  color: red;
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 5%;
+  color:#E83E33;
   font-size: bold;
+  letter-spacing:3px;
+  margin-left:20px;
 }
 
 /* span p {
@@ -113,7 +131,7 @@ span {
 
 .carousel {
   margin-top: 120px;
-  background-blend-mode: darken;
+  
 }
 
 .carousel-caption {
@@ -124,20 +142,29 @@ span {
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
-  font-size: 64px;
+  font-size: 56px;
   letter-spacing: 1.37px;
   color: #ffffff;
 }
-
-.w-100 {
-  background-blend-mode: darken;
+.big {
+  margin-bottom: -1rem
 }
-
+.small {
+  margin-bottom: 1em;
+  font-size: 70%;
+  font-weight: 100;
+}
+/* .w-100 {
+  background-blend-mode: darken;
+} */
+.carousel-item {
+ 
+}
 .carousel-indicators li {
-  width: 16px;
-  height: 16px;
+  width: 10px;
+  height: 10px;
   border-radius: 100%;
-  border: 4px solid white;
+  border: 2px solid white;
   background: none;
   margin-left: 6px;
   margin-bottom: 20px;
@@ -148,7 +175,7 @@ span {
 }
 
 .carousel-control-next, .carousel-control-prev {
-  width: 7%;
+  width: 10%;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -170,9 +197,22 @@ span {
 
 /* Color tabs - active and non-active */
 
-/* .nav-item, .nav-link {
-   
-} */
+.nav-item, .nav-link, .nav-link:focus {
+  color:#C3C3C3;
+  border-color:none !important;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  color:#A38553;
+  border-bottom-color:#A38553;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border-color:white;
+}
+.nav-tabs .nav-link.active{
+  /* border-bottom: 1px solid black; */
+  color:#A38553;
+}
 
 .tabs {
   position: unset !important;
@@ -192,7 +232,7 @@ span {
   align-items: center;
   padding: 20px;
   margin-top: 7em;
-  margin-bottom: 7em;
+  margin-bottom: 2.5em;
 }
 
 .Info {
@@ -221,20 +261,25 @@ span {
   display: flex;
   justify-content: center;
 }
+.our-menu {
+  margin-bottom: 1.6em;
+}
 
 /* Pic section */
 
-.pic-section p, .our-menu {
+.pic-section p {
   text-align: center;
   color: #747474;
   font-size: 36px;
+  /* margin-bottom: 1.6em; */
 }
 
 .pic-gallery {
   display: grid;
   grid-template-rows: 350px 350px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 50px 48px;
+  grid-gap: 40px 45px;
+  padding: 40px;
 }
 
 #mobile-pic-gallery {
@@ -243,11 +288,12 @@ span {
 
 .pic-gallery img {
   object-fit: cover;
-  height: 350px;
-  width: 100%;
-  margin: 10px;
+  height: 340px;
+  width: 96%;
+  align-self: center;
+  /* margin: 10px;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 50px; */
 }
 
 /* Menu */
@@ -399,37 +445,6 @@ span {
   }
 }
 
-@media only screen and (max-width: 980px) {
-  /*About Us*/
-  /* .AboutUs{
-      display: unset;
-      flex-direction: row;
-      justify-content: center;
-      margin-top: 7em;
-      margin-bottom: 7em;
-    } */
-}
-
-/* .AboutImg img{
-    width: 100%;
-    height: 100%;
-    margin-right: unset;
-    
-  } */
-
-/* .Info{
-    height: 100%;
-    width:  100%;
-  } */
-
-/*Menu*/
-
-/* .menuItems {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 40px;
-
-  } */
 
 /* Media Query Phone*/
 
@@ -541,12 +556,13 @@ span {
     font-size: 28px;
 
   }
-  /* .small {
-    display:unset;
+  .small {
+    /* display:unset;
     margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-end: 0;
-    margin-inline-start: 0;
+    margin-inline-start: 0; */
+    margin-top: -1em;
 
-  } */
+  }
 }
