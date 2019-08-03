@@ -10,7 +10,7 @@ const ContactForm = (props) => {
           <input className="input" type="text" name="Email" onChange={props.handleChange}
             placeholder="Email" />
           <input className="input" type="text" name="" onChange={props.handleChange} placeholder="What's on your mind?" />
-          <Button variant="outline-dark">Submit</Button>
+          <Button variant="outline-dark">SUMBIT</Button>
         </form>
         <div className="address">
         <p className="bold">Ovelia is located on the corner of

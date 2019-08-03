@@ -4,7 +4,7 @@ import React from 'react'
 const OurMenu = () => {
   return (
     <div className="menu-section" id="menu">
-      <p className="title">Our Menu</p>
+      <p className="title our-menu">Our Menu</p>
     </div>
   )
 }
