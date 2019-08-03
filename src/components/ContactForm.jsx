@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 const ContactForm = (props) => {
   return (
     
-      <div className="form-address">
+      <div className="form-address" id="contact">
         <form className="contact-form" onSubmit={props.handleSubmit}><p className="contact-us">Contact Us</p>
           <input className="input" type="text" name="name" onChange={props.handleChange} placeholder="Name" />
           <input className="input" type="text" name="Email" onChange={props.handleChange}
