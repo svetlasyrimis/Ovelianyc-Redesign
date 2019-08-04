@@ -193,8 +193,8 @@ span {
 /* Color tabs - active and non-active */
 .nav-tabs .nav-link {
   border: none;
-  
 }
+
 .nav-tabs {
   border-bottom: 0;
   
@@ -412,16 +412,24 @@ span {
   text-align: center;
 }
 
-/* .namePrice p{
-  margin-bottom: 20px;
-} */
-
 /* Media Query  Tablet*/
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .logo {
     width: 145px;
     height: 145px;
+  }
+  .navbar-togger, .navbar-toggler .collapsed {
+    color: #E83E33;
+  }
+  .link-items {
+    flex-direction: column;
+  }
+  span {
+    margin-left: 0px;
+  }
+  .logo-nav {
+    display: none;
   }
   .link-items {
     font-size: 22px;
@@ -461,6 +469,15 @@ span {
   .form-address {
     display: unset;
   }
+  .nav,.navbar,.navbar-expand-lg,.navbar-light {
+    margin-top:10px;
+    text-align: center;
+    
+  }
+  .navbar-collapse,.mr-auto {
+    text-align: center;
+    background-color: white;
+  }
 }
 
 
@@ -482,6 +499,42 @@ span {
     margin: 0;
     padding: 0px !important;
     /* margin-bottom: 2rem; */
+  }
+  
+  .nav,.navbar,.navbar-expand-lg,.navbar-light {
+    text-align: center;
+    
+  }
+  .navbar-collapse,.mr-auto {
+    text-align: center;
+    background-color: white;
+  }
+ 
+  /* .navbar-collapse {
+    text-align-last: auto
+  } */
+  /* .nav {
+    position: -webkit-sticky;
+   
+  } */
+  .link-items {
+    min-width: 0;
+  }
+  .mr-auto {
+  text-align-last: left;
+  }
+  .mx-auto.d-sm-flex.d-block.flex-sm-nowrap {
+    text-align: center;
+  }
+  .sticky-top {
+    margin-top: 10px;
+    position: fixed;
+  }
+   span {
+    margin:0;
+  }
+  .link-items {
+    margin: 10px;
   }
   .logo {
     display: none;
@@ -514,9 +567,7 @@ span {
   .tabs .nav,.nav-tabs {
     height: 50px;
   }
-  .nav {
-    z-index: 0 !important;
-  }
+  
   .title{
     margin: 0;
   }

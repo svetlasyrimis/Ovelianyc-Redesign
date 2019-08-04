@@ -18,9 +18,9 @@ export default class NavBar extends React.Component {
       <div className="logo-nav">
         <img className="logo" src={OveliaLogo} alt="logo-pic" />
       </div>
-      <Navbar expand="lg">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar sticky="top" expand="lg">
+        <Navbar.Toggle  aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse  id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <div className='link-items'>
 
