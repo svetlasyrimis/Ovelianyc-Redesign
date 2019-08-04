@@ -80,13 +80,13 @@ export const catering_15 = [
   {
     "id": "14",
     "name": "BUFFALO KALAMARI ",
-    "price": "Ask",
+    "price": "MP",
     "details": "fried kalamari, buffalo sauce",
   },
   {
     "id": "15",
     "name": "THICK CUT BACON",
-    "price": "Ask",
+    "price": "MP",
     "details": "black tahini, candied fig, manouri",
   },
   {
@@ -98,7 +98,7 @@ export const catering_15 = [
   {
     "id": "17",
     "name": "GRILLED OCTOPUS",
-    "price": "Ask",
+    "price": "MP",
     "details": "",
   },
 ];
@@ -161,13 +161,13 @@ export const catering_25 = [
   {
     "id": "10",
     "name": "KALAMARI FRIED",
-    "price": "Ask",
+    "price": "MP",
     "details": "FRIED, GRILLED",
   },
   {
     "id": "11",
     "name": "MOUSAKA",
-    "price": "Ask",
+    "price": "MP",
     "details": "eggplant, potato, zucchini, Greek-style bolognese, bechamel",
   },
   {
@@ -185,13 +185,13 @@ export const catering_25 = [
   {
     "id": "14",
     "name": "BUFFALO KALAMARI ",
-    "price": "Ask",
+    "price": "MP",
     "details": "fried kalamari, buffalo sauce",
   },
   {
     "id": "15",
     "name": "THICK CUT BACON",
-    "price": "Ask",
+    "price": "MP",
     "details": "black tahini, candied fig, manouri",
   },
   {
@@ -203,7 +203,7 @@ export const catering_25 = [
   {
     "id": "17",
     "name": "GRILLED OCTOPUS",
-    "price": "Ask",
+    "price": "MP",
     "details": "",
   },
   {

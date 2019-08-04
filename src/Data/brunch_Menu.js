@@ -241,7 +241,7 @@ export const Brunch_Sides = [
   {
     "id": "6",
     "name": "HAND CUT FRIES",
-    "price": "$",
+    "price": "MP",
     "category": "Sides",
     "details": ""
   },
