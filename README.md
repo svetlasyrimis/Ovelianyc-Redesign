@@ -1,68 +1,133 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Ovelia
 
-## Available Scripts
+![Challenge](https://i.imgur.com/AIr7QbW.png)
+<p style="text-align: center;"><em>Redesign</em></p>
 
-In the project directory, you can run:
+## Table of Contents
+- [Project Description](#project-description)
+  - [Project Team](#project-team)
+  - [Project Inspiration](#project-inspiration)
+- [Design](#design)
+  - [Sitemap](#sitemap)
+  - [Wireframes](#wireframes)
+    - [Desktop](#desktop)
+    - [Tablet](#tablet)
+    - [Mobile](#mobile)
+    
+- [Development](#development)
+  - [Functional Heirarchy](#functional-heirarchy)
+    - [Repo Structure](#repo-structure)
+    - [Database Table Structure](#express-database-structure)
+    - [React Structure](#react-structure)
+  - [Functional Components](#functional-components)
+    - [Component Breakdown](#component-breakdown)
+    - [Component Timeframes](#component-timeframes)
+    - [Helper Functions](#helper-functions)
+  - [Supporting Libraries](#supporting-libraries)
+- [Project Review](#project-review)
+  - [Code Showcase](#code-showcase)
+  - [Bugs, Issues, and Resolutions](#issues-&-resolutions)
+- [Project Followup](#project-followup)
 
-### `npm start`
+<br>
+<br>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Overview
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+## Project Description
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Project Team
+Created, designed, and developed by [Svetla Syrimis](https://github.com/svetlasyrimis), [Steve Kim](https://github.com/Majorsteve), [Danielle Klinger](https://github.com/Dklinger95), [Janis Crespo](https://github.com/), [Jennifer Pujols](https://github.com/jenniferpujols), & [Nazrul Babu](https://github.com/n95babu) (Git Czar) for the GA Software Engineering Immersive & User Experience Design Immersive (May '19 Cohort) collab  Project.
 
-### `npm run build`
+Team values, communication preferences, and other group expectations can be found on the [Ovelia- Redesign google doc](https://docs.google.com/document/d/1JdjdJwcXwCWbywYsNXTXL3d3OJm9BnaXuxp-JBNMiA0/edit).
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Project Inspiration
+Ovelianyc is modeled with functional inspiration from [Tavernakyclades] (http://www.tavernakyclades.com/).
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
+<br>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Design
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Sitemap
+![Sitemap](https://i.imgur.com/0xpkMSd.png)
+<p style="text-align: center;"><em>Sitemap</em></p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Wireframes
+#### Desktop 
+![Desktop Wireframe](https://i.imgur.com/FU3kYxk.jpg)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Mobile
+![Mobile Wireframe](https://i.imgur.com/96F1tBQ.jpg)
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+# Development
 
-### Advanced Configuration
+## Functional Goals
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- Core React Component
+    - Menu (_Show_)
+        - Photos
+        - Dinner
+        - Brunch
+        - Catering
+    - Contact Us  
+        - Hours, location, phone number
+    - About Us  (_Index_)
+    -Reservation- through Resy 
+    - Social Media Links (_Show_)
+    
+ 
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Functional Heirarchy
 
-### `npm run build` fails to minify
+> Files and directories that are key to our production (and thus, have been- or will be- edited) are listed here in tree form here. Subdirectories should appear first, followed by filenames.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+#### Component Timeframes
+
+> Time expectation (padded with an extra hour, minimum, to play it safe) go here.
+
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: |
+| Lorem ipsum | High | x hrs | y hrs |
+
+
+## Supporting Libraries
+
+
+> Packages installed via node go here.
+
+* Application Libraries
+  * axios
+  * material-ui
+  * react
+  * react-router-dom
+  * react-with-gesture
+  * Glo board 
+  * Girkrackeb
+  * React Bootstrap 
+  
+  
+
+<br>
+<br>
+
+
+# Project Followup
+
+> Any tasks we would like to revisit after graduation go here.
+
